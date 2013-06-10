@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_pen_only" android:icon="@drawable/selector_penonly_n" android:title="@string/pen_only" android:showAsAction="always"></item>
+    <item android:id="@+id/menu_pen" android:icon="@drawable/selector_pen" android:title="@string/pen" android:showAsAction="always"></item>
+    <item android:id="@+id/menu_erase" android:icon="@drawable/selector_eraser" android:title="@string/pen_eraser" android:showAsAction="always"></item>
+    <item android:id="@+id/menu_text" android:icon="@drawable/selector_text" android:title="@string/text" android:showAsAction="always"></item>
+    <item android:id="@+id/menu_filling" android:icon="@drawable/selector_filling" android:title="@string/filling" android:showAsAction="always"></item>
+    <item android:id="@+id/menu_colorPicker" android:icon="@drawable/selector_colorpicker" android:title="@string/color_picker" android:showAsAction="always"></item>
+    <item android:id="@+id/menu_insert" android:icon="@drawable/selector_image" android:title="@string/insert_image" android:showAsAction="always"></item>
+    <item android:id="@+id/menu_undo" android:icon="@drawable/selector_undo" android:title="@string/undo" android:showAsAction="always"></item>
+    <item android:id="@+id/menu_redo" android:icon="@drawable/selector_redo" android:title="@string/redo" android:showAsAction="always"></item>
+</menu>
